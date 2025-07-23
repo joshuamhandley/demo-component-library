@@ -8,8 +8,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, "src/index.js"),
-      name: "DemoComponentLibrary",
-      fileName: format => `demo-component-library.${format}.js`,
+      name: "JhDemoComponentLibrary",
+      fileName: format => `jh-demo-component-library.${format}.js`,
     },
     rollupOptions: {
       external: ["vue"],

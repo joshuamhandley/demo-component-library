@@ -1,17 +1,17 @@
 {
-  "name": "demo-component-library",
+  "name": "jh-demo-component-library",
   "private": false,
   "version": "0.1.0",
   "type": "module",
-  "main": "./dist/demo-component-library.umd.js",
-  "module": "./dist/demo-component-library.es.js",
+  "main": "./dist/jh-demo-component-library.umd.js",
+  "module": "./dist/jh-demo-component-library.es.js",
   "exports": {
     ".": {
-      "import": "./dist/demo-component-library.es.js",
-      "require": "./dist/demo-component-library.umd.js"
+      "import": "./dist/jh-demo-component-library.es.js",
+      "require": "./dist/jh-demo-component-library.umd.js"
     },
     "./*": "./dist/*.js",
-    "./components": "./dist/demo-component-library.es.js",
+    "./components": "./dist/jh-demo-component-library.es.js",
     "./components/*": "./dist/*.js"
   },
   "files": [
