@@ -1,0 +1,35 @@
+{
+  "name": "demo-component-library",
+  "private": false,
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./dist/demo-component-library.umd.js",
+  "module": "./dist/demo-component-library.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/demo-component-library.es.js",
+      "require": "./dist/demo-component-library.umd.js"
+    },
+    "./*": "./dist/*.js",
+    "./components": "./dist/demo-component-library.es.js",
+    "./components/*": "./dist/*.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.5.17"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.0",
+    "vite": "^7.0.4"
+  },
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  }
+}
