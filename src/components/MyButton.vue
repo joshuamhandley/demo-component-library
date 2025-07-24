@@ -4,11 +4,7 @@
   </button>
 </template>
 
-<script>
-export default {
-  name: "MyButton",
-};
-</script>
+<script setup></script>
 
 <style scoped>
 .my-button {

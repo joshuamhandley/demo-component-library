@@ -15,7 +15,8 @@
     "./components/*": "./dist/*.js"
   },
   "files": [
-    "dist"
+    "dist",
+    "README.md"
   ],
   "scripts": {
     "dev": "vite",

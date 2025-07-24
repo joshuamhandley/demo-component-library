@@ -4,16 +4,13 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: "HelloWorld",
-  props: {
+<script setup>
+const props = defineProps({
     msg: {
       type: String,
       default: "Hello, Vue Component Library!",
     },
-  },
-};
+  }),
 </script>
 
 <style scoped>
