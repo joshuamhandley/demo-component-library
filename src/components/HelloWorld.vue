@@ -6,11 +6,11 @@
 
 <script setup>
 const props = defineProps({
-    msg: {
-      type: String,
-      default: "Hello, Vue Component Library!",
-    },
-  }),
+  msg: {
+    type: String,
+    default: "Hello, Vue Component Library!",
+  },
+});
 </script>
 
 <style scoped>
